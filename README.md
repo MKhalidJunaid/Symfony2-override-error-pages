@@ -1,4 +1,4 @@
-Symfony2-override-error-pages
+Symfony2 Override Error Pages
 ================================
 
 Symfony2 Override/Customize Error Pages
