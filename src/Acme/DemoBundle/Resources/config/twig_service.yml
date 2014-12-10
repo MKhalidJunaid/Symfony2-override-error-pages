@@ -1,0 +1,6 @@
+parameters:
+    twig.controller.exception.class: Acme\DemoBundle\Controller\ExceptionController
+services:
+    twig.controller.exception:
+        class: %twig.controller.exception.class%
+        arguments: [ '@twig' ,'%kernel.debug%' ,'@service_container']

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>An Error Occurred: {{ status_text }}</title>
+    {% include 'some.html.twig' %}
+</head>
+<body>
+<div>
+   {#  display header here #}
+    <section class="container">
+        <div class="page404">
+            <!-- 404 Page Not Found Start -->
+            <div class="main404">{{ status_code }}</div>
+
+            <div class="dataconainter">
+                <h1>{{ status_text }}</h1>
+                <p>We apologise but the page you are looking for <br>no longer exists or has been updated.</p>
+                <a title="Please click here to go back to the homepage" class="btn ui submit button" href="/">
+                    Please click here to go back to the homepage</a>
+            </div>
+            <!-- 404 Page Not Found End -->
+        </div>
+    </section>{# show footer menu here #}
+</div>
+</body>
+</html>
